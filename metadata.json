@@ -1,0 +1,5 @@
+{
+  "name": "LeaksPanel",
+  "description": "A personal blog writing and management dashboard for the LavLeaks blog (leaks.lavsarkari.me). It provides a smooth, aesthetic UI to write, style, and publish posts, automating the markdown and front-matter formatting for the Chirpy Jekyll theme.",
+  "requestFramePermissions": []
+}
