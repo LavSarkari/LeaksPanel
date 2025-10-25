@@ -6,6 +6,13 @@ import Editor, { EditorHandles } from './components/Editor';
 import { GithubIcon, PlusIcon, SaveIcon, UploadIcon, BackIcon, LogoutIcon } from './constants';
 import useLocalStorage from './hooks/useLocalStorage';
 import CommandPalette from './components/CommandPalette';
+if (typeof window !== "undefined") {
+  import("refractor")
+    .then(() => console.log("✅ Refractor loaded dynamically"))
+    .catch((err) => console.error("⚠️ Failed to load refractor:", err));
+}
+
+
 
 export interface Command {
   id: string;
